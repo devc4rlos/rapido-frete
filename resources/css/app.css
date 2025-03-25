@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import '@fortawesome/fontawesome-free/css/all.min.css';
 @import 'tailwindcss';
 
 @source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
@@ -8,4 +10,104 @@
 @theme {
     --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
         'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+@theme {
+    --font-title: "Montserrat", sans-serif;
+    --font-text: "Roboto", sans-serif;
+
+    --color-brand-100: #9CD680;
+    --color-brand-200: #7AC358;
+    --color-brand-300: #5BA83A;
+    --color-brand-400: #3E7B27;
+    --color-brand-500: #356724;
+    --color-brand-600: #2E5222;
+
+    --color-default-100: #B0B0B0;
+    --color-default-200: #888888;
+    --color-default-300: #6D6D6D;
+    --color-default-400: #5D5D5D;
+    --color-default-500: #4F4F4F;
+    --color-default-600: #454545;
+
+    --color-info-100: #6BDDD9;
+    --color-info-200: #3DC4C4;
+    --color-info-300: #219B9D;
+    --color-info-400: #1A8287;
+    --color-info-500: #19686C;
+    --color-info-600: #185357;
+
+    --color-success-100: #71E4AF;
+    --color-success-200: #38CF8E;
+    --color-success-300: #16C47F;
+    --color-success-400: #09925F;
+    --color-success-500: #07754F;
+    --color-success-600: #085D3F;
+
+    --color-warning-100: #FFD16D;
+    --color-warning-200: #FFB232;
+    --color-warning-300: #FF980A;
+    --color-warning-400: #FF8000;
+    --color-warning-500: #CC5D02;
+    --color-warning-600: #A1480B;
+
+    --color-danger-100: #FFA96B;
+    --color-danger-200: #FF792F;
+    --color-danger-300: #FF5407;
+    --color-danger-400: #F93700;
+    --color-danger-500: #C62300;
+    --color-danger-600: #A31E09;
+
+    --color-light: #FCF3F3;
+    --color-dark: #1B1818;
+    --color-black: #000000;
+    --color-white: #FFFFFF;
+}
+
+body {
+    color: theme('color-dark');
+}
+
+.text-display {
+    @apply font-bold font-title text-[32px] leading-[150%];
+}
+
+.text-title {
+    @apply font-bold font-title text-[28px] leading-[150%];
+}
+
+.text-headline {
+    @apply font-semibold font-title text-[24px] leading-[150%];
+}
+
+.text-subtitle {
+    @apply font-medium font-title text-[20px] leading-[150%];
+}
+
+.text-large {
+    @apply font-text text-[18px] leading-[150%];
+}
+
+.text-normal {
+    @apply font-text text-[16px] leading-[100%];
+}
+
+.text-small {
+    @apply font-text text-[14px] leading-[100%];
+}
+
+.text-extra-small {
+    @apply font-text text-[12px] leading-[100%];
+}
+
+.shadow-highlight {
+    box-shadow: 0 4px 16px 0 rgba(0, 0, 0, 0.8), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.shadow-depth {
+    box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 16), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container {
+    @apply mx-auto;
 }
