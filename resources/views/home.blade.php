@@ -4,4 +4,5 @@
 
 @section('body')
     <x-header.top-bar.index />
+    <x-header.index />
 @endsection
