@@ -67,39 +67,7 @@
 
 body {
     color: theme('color-dark');
-    @apply font-text text-[16px] leading-[100%];
-}
-
-.text-display {
-    @apply font-bold font-title text-[32px] leading-[150%];
-}
-
-.text-title {
-    @apply font-bold font-title text-[28px] leading-[150%];
-}
-
-.text-headline {
-    @apply font-semibold font-title text-[24px] leading-[150%];
-}
-
-.text-subtitle {
-    @apply font-medium font-title text-[20px] leading-[150%];
-}
-
-.text-large {
-    @apply font-text text-[18px] leading-[150%];
-}
-
-.text-normal {
-    @apply font-text text-[16px] leading-[100%];
-}
-
-.text-small {
-    @apply font-text text-[14px] leading-[100%];
-}
-
-.text-extra-small {
-    @apply font-text text-[12px] leading-[100%];
+    @apply font-text text-base leading-[100%];
 }
 
 .shadow-highlight {

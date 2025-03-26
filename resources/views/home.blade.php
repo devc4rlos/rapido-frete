@@ -5,4 +5,5 @@
 @section('body')
     <x-header.top-bar.index />
     <x-header.index />
+    <x-home.index />
 @endsection
