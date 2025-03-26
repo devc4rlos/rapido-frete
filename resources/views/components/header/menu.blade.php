@@ -1,4 +1,8 @@
-<ul class="flex items-center gap-8">
+<ul @class([
+    'flex gap-8',
+    'flex-row items-center' => $isVertical === false,
+    'flex-col' => $isVertical,
+])>
     <x-header.nav-link>
         Home
     </x-header.nav-link>

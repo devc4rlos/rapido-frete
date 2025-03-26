@@ -11,8 +11,10 @@
 
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     @yield('head')
+    @stack('head')
 </head>
 <body>
     @yield('body')
+    @stack('body')
 </body>
 </html>

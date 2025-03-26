@@ -1,6 +1,6 @@
 <div class="bg-light p-4">
-    <div class="container flex justify-between">
-        <div class="flex gap-5">
+    <div class="container flex justify-center lg:justify-between">
+        <div class="flex flex-wrap justify-center gap-5">
             <x-header.top-bar.link-icon href="https://api.whatsapp.com/send?phone=5511994411592">
                 +55 11 99441-1592
                 <x-slot:icon>
@@ -20,7 +20,7 @@
                 </x-slot:icon>
             </x-header.top-bar.text-icon>
         </div>
-        <div class="flex gap-3">
+        <div class="hidden lg:flex gap-3">
             <x-header.top-bar.link-icon href="https://www.facebook.com/">
                 <x-slot:icon>
                     <x-icons.facebook />
