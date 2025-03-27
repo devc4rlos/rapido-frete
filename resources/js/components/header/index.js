@@ -20,12 +20,14 @@ Array.from(closeOverlay).forEach((close) => {
 const openMenu = () => updateMenu(() => {
     overlay.classList.remove('hidden');
     overlay.classList.add('animation-progress');
+    document.body.classList.add('overflow-hidden');
     animateOpenMenu();
     animateOpenBackgroundOverlay()
 });
 
 const closeMenu = () => updateMenu(() => {
     overlay.classList.add('animation-progress');
+    document.body.classList.remove('overflow-hidden');
     animateCloseMenu();
     animateCloseBackgroundOverlay();
 });
