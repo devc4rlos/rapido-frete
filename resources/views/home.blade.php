@@ -6,4 +6,5 @@
     <x-header.top-bar.index />
     <x-header.index />
     <x-home.index />
+    <x-line-information.index />
 @endsection
