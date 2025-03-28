@@ -1,1 +1,7 @@
-<i class="fa-solid fa-calendar-days {{ $size }}"></i>
+@props(['class' => ''])
+
+<i @class([
+    'fa-solid fa-calendar-days',
+    $size,
+    $class
+])></i>

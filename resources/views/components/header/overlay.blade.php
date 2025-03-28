@@ -1,5 +1,5 @@
 <div class="hidden fixed top-0 left-0 w-screen h-screen z-50" id="overlay">
-    <div class="absolute shadow-highlight translate-x-full top-0 right-0 z-50 w-sm max-w-[90%] bg-light h-screen p-5" id="menuMobile">
+    <div class="absolute shadow-highlight translate-x-full top-0 right-0 z-50 w-sm max-w-[90%] bg-white h-screen p-5" id="menuMobile">
         <button class="close-overlay ml-auto block cursor-pointer hover:text-brand-500">
             <x-icons.close size="3xl" />
         </button>

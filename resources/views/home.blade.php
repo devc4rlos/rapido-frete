@@ -7,4 +7,5 @@
     <x-header.index />
     <x-home.index />
     <x-line-information.index />
+    <x-about />
 @endsection

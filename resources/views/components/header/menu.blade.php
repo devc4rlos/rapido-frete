@@ -21,7 +21,10 @@
     <x-header.nav-link>
         Fale conosco
     </x-header.nav-link>
-    <x-button-main href="https://api.whatsapp.com/send?phone=5511994411592">
+    <x-button-main
+        :class="$isVertical ? 'w-full' : ''"
+        href="https://api.whatsapp.com/send?phone=5511994411592"
+    >
         Solicitar orçamento
     </x-button-main>
 </ul>
