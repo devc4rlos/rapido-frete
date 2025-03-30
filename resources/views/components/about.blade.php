@@ -1,11 +1,11 @@
 <section class="p-4 bg-light">
     <div class="container my-10">
-        <x-title-section class="mb-10">
+        <x-title-section class="mb-10 animate">
             Quem é a rápido frete
         </x-title-section>
         <div class="grid grid-cols-1 md:grid-cols-2 justify-center gap-10 pb-5">
-            <x-box-image :image="asset('assets/about.png')" class="md:max-w-xl md:ml-auto h-80 md:h-auto" classImage="object-top" />
-            <div class="flex flex-col gap-5 md:max-w-lg w-full">
+            <x-box-image :image="asset('assets/about.png')" class="md:max-w-xl md:ml-auto h-80 md:h-auto animate from-left" classImage="object-top" />
+            <div class="flex flex-col gap-5 md:max-w-lg w-full animate from-right">
                 <x-subtitle-section>
                     Levamos sua mudança a sério!
                 </x-subtitle-section>

@@ -81,3 +81,7 @@ body {
 .container {
     @apply mx-auto;
 }
+
+.animate {
+    opacity: 0;
+}

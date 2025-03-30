@@ -1,5 +1,5 @@
 <section class="p-4 my-6">
-    <div class="container flex flex-wrap justify-around gap-16">
+    <div class="container flex flex-wrap justify-around gap-16 animate">
         <x-line-information.text-icon>
             <x-slot:icon>
                 <x-icons.calendar-days size="3xl" />
