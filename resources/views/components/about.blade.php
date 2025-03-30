@@ -3,7 +3,7 @@
         <x-title-section class="mb-10">
             Quem é a rápido frete
         </x-title-section>
-        <div class="grid grid-cols-1 md:grid-cols-2 justify-center gap-10">
+        <div class="grid grid-cols-1 md:grid-cols-2 justify-center gap-10 pb-5">
             <x-box-image :image="asset('assets/about.png')" class="md:max-w-xl md:ml-auto h-80 md:h-auto" classImage="object-top" />
             <div class="flex flex-col gap-5 md:max-w-lg w-full">
                 <x-subtitle-section>

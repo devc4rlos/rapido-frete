@@ -8,4 +8,5 @@
     <x-home.index />
     <x-line-information.index />
     <x-about />
+    <x-services.index />
 @endsection
