@@ -9,4 +9,5 @@
     <x-line-information.index />
     <x-about />
     <x-services.index />
+    <x-list-step.index />
 @endsection

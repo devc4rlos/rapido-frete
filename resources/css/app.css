@@ -68,6 +68,7 @@
 body {
     color: theme('color-dark');
     @apply font-text text-base leading-[100%];
+    overflow-x: hidden;
 }
 
 .shadow-highlight {
@@ -85,3 +86,4 @@ body {
 .animate {
     opacity: 0;
 }
+

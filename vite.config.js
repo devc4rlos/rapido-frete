@@ -18,6 +18,7 @@ export default defineConfig({
                 'resources/js/app.js',
 
                 'resources/js/components/header/index.js',
+                'resources/js/components/list-step/index.js',
             ],
             refresh: true,
         }),
