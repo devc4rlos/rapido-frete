@@ -2,9 +2,10 @@
     'class' => '',
     'image',
     'classImage' => '',
+    'reverse' => false,
 ])
 
-<x-box.template :class="$class">
+<x-box.template :class="$class" :reverse="$reverse">
     <x-slot:content>
         <img src="{{ $image }}" alt=""
             @class([

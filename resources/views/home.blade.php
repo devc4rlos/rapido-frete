@@ -11,4 +11,5 @@
     <x-services.index />
     <x-list-step.index />
     <x-fleet />
+    <x-cities />
 @endsection
