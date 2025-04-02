@@ -4,7 +4,7 @@
 ])
 
 <div @class([
-    'flex justify-center md:justify-end relative pr-5 md:max-w-xl h-80 md:h-auto animate',
+    'flex justify-center md:justify-end relative pr-5 md:max-w-lg h-80 md:h-auto animate',
     'from-left' => !$reverse,
     'from-right' => $reverse,
     $class,
