@@ -13,4 +13,5 @@
     <x-fleet />
     <x-cities />
     <x-gallery />
+    <x-comments />
 @endsection
