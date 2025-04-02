@@ -10,4 +10,5 @@
     <x-about />
     <x-services.index />
     <x-list-step.index />
+    <x-fleet />
 @endsection
