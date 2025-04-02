@@ -12,4 +12,5 @@
     <x-list-step.index />
     <x-fleet />
     <x-cities />
+    <x-gallery />
 @endsection
