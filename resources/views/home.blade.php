@@ -16,4 +16,5 @@
     <x-comments />
     <x-faq />
     <x-contact />
+    <x-footer />
 @endsection
