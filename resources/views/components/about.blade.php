@@ -1,7 +1,7 @@
 <x-template.box-and-text
     title="Quem é a rápido frete"
     subtitle="Levamos sua mudança a sério!"
-    class="bg-light"
+    isBackground
 >
     <x-slot:box>
         <x-box.image :image="asset('assets/about.png')" classImage="object-top" class="md:ml-auto" />

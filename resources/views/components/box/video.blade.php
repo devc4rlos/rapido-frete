@@ -23,6 +23,6 @@
     </x-slot:content>
 </x-box.template>
 
-@pushonce('body')
+@pushonce('scripts')
     @vite('resources/js/components/box/video.js')
 @endpushonce

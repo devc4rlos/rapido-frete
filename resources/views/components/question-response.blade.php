@@ -22,6 +22,6 @@
     </div>
 </div>
 
-@pushonce('body')
+@pushonce('scripts')
     @vite('resources/js/components/question-response.js')
 @endpushonce

@@ -1,10 +1,8 @@
-@extends('layout.main')
+@extends('layout.page')
 
 @section('title', 'Home')
 
-@section('body')
-    <x-header.top-bar.index />
-    <x-header.index />
+@section('content')
     <x-home.index />
     <x-line-information.index />
     <x-about />
@@ -16,5 +14,4 @@
     <x-comments />
     <x-faq />
     <x-contact />
-    <x-footer />
 @endsection

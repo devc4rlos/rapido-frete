@@ -11,6 +11,6 @@
     </nav>
 </header>
 
-@push('body')
+@push('scripts')
     @vite('resources/js/components/header/index.js')
 @endpush
