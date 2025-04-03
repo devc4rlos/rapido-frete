@@ -14,4 +14,5 @@
     <x-cities />
     <x-gallery />
     <x-comments />
+    <x-faq />
 @endsection
