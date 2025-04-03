@@ -30,7 +30,7 @@
                                 <x-form.label for="phone">Telefone</x-form.label>
                             </x-slot:label>
                             <x-slot:input>
-                                <x-form.input type="text" name="phone" id="phone" placeholder="Ex: +55 11 98952-1055" />
+                                <x-form.input type="text" name="phone" id="phone" placeholder="Digite seu telefone" />
                             </x-slot:input>
                         </x-form.control>
                     </x-form.group>
@@ -86,3 +86,7 @@
         </div>
     </div>
 </section>
+
+@pushonce('body')
+    @vite('resources/js/components/contact.js')
+@endpushonce
