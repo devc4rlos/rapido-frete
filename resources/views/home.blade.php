@@ -15,4 +15,5 @@
     <x-gallery />
     <x-comments />
     <x-faq />
+    <x-contact />
 @endsection

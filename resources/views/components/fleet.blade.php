@@ -32,6 +32,6 @@
         </x-text>
     </x-slot:content>
     <x-slot:footer>
-        <x-button-main>Ver galeria</x-button-main>
+        <x-link-main>Ver galeria</x-link-main>
     </x-slot:footer>
 </x-template.box-and-text>

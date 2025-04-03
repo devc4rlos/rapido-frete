@@ -31,8 +31,8 @@
     </x-slot:content>
     <x-slot:footer>
         <a href="#" class="font-text text-sm md:text-base text-brand-400 hover:text-brand-500">Conheça mais sobre a rápido frete</a>
-        <x-button-main>
+        <x-link-main>
             Solicitar um orçamento
-        </x-button-main>
+        </x-link-main>
     </x-slot:footer>
 </x-template.box-and-text>

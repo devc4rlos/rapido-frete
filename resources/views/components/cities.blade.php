@@ -20,7 +20,7 @@
         </x-text>
     </x-slot:content>
     <x-slot:footer>
-        <x-button-main>Ver cidades atendidas</x-button-main>
+        <x-link-main>Ver cidades atendidas</x-link-main>
 
         <p class="text-sm">Caso sua cidade não esteja na lista, entre em contato! Podemos avaliar a melhor solução para o seu transporte.</p>
     </x-slot:footer>

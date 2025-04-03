@@ -11,7 +11,7 @@
         </div>
         <div class="mt-10 flex flex-col gap-5 items-center animate">
             <x-text class="text-center">Precisa de um serviço de mudança? Entre em contato e solicite um orçamento agora mesmo!</x-text>
-            <x-button-main>Solicitar orçamento</x-button-main>
+            <x-link-main>Solicitar orçamento</x-link-main>
         </div>
     </div>
 </section>

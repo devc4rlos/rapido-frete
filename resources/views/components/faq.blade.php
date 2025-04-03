@@ -31,7 +31,7 @@
             <x-text class="text-center mt-10 max-w-5xl mx-auto md:px-10" :textAlign="false">
                 <b>Ainda tem dúvidas?</b> Se você não encontrou a resposta que procurava ou quer mais informações, nossa equipe está pronta para ajudar! Não perca tempo e faça sua mudança com quem entende do assunto.
             </x-text>
-            <x-button-main href="#" class="block mx-auto mt-6">Solicitar orçamento</x-button-main>
+            <x-link-main href="#" class="block mx-auto mt-6">Solicitar orçamento</x-link-main>
         </div>
     </div>
 </section>
