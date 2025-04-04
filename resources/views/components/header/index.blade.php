@@ -1,6 +1,6 @@
 <header>
     <nav class="flex container p-4 justify-between items-center">
-        <x-logo />
+        <x-logo href="{{ route('home') }}" />
         <div class="hidden lg:block">
             <x-header.menu />
         </div>
