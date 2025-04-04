@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\AboutController;
+use App\Http\Controllers\FleetController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ServicesController;
 use Illuminate\Support\Facades\Route;
@@ -16,3 +17,5 @@ Route::controller(ServicesController::class)->prefix('services')->name('services
     Route::get('professional-packaging', 'professionalPackaging')->name('professional-packaging');
     Route::get('interstate-moving', 'interstateMoving')->name('interstate-moving');
 });
+
+Route::get('/fleet', FleetController::class)->name('fleet');
