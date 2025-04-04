@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\AboutController;
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\FaqController;
 use App\Http\Controllers\FleetController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\PrivacyPolicyController;
@@ -24,3 +25,4 @@ Route::get('/fleet', FleetController::class)->name('fleet');
 Route::get('/regions', RegionsController::class)->name('regions');
 Route::get('/contact', ContactController::class)->name('contact');
 Route::get('/privacy-policy', PrivacyPolicyController::class)->name('privacy-policy');
+Route::get('/faq', FaqController::class)->name('faq');
