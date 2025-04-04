@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\AboutController;
+use App\Http\Controllers\ContactController;
 use App\Http\Controllers\FleetController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\RegionsController;
@@ -20,3 +21,4 @@ Route::controller(ServicesController::class)->prefix('services')->name('services
 });
 Route::get('/fleet', FleetController::class)->name('fleet');
 Route::get('/regions', RegionsController::class)->name('regions');
+Route::get('/contact', ContactController::class)->name('contact');
