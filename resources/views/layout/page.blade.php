@@ -11,6 +11,7 @@
 
     @yield('content')
 
+    <x-popup-whatsapp />
     <x-footer />
 
     @yield('scripts')
