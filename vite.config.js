@@ -19,6 +19,10 @@ export default defineConfig({
 
                 'resources/js/components/header/index.js',
                 'resources/js/components/list-step/index.js',
+                'resources/js/components/box/video.js',
+                'resources/js/components/question-response.js',
+                'resources/js/components/contact.js',
+                'resources/js/components/popup-whatsapp.js',
             ],
             refresh: true,
         }),
