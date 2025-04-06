@@ -9,7 +9,7 @@
             <x-text class="text-center md:text-left px-5 md:px-0 sm:block text-light" :textAlign="false">
                 Mude sem preocupação! Oferecemos profissionais experientes, veículos preparados e um serviço acessível para uma mudança tranquila e pontual.
             </x-text>
-            <x-link-main class="w-fit" href="https://api.whatsapp.com/send?phone=5511994411592">Solicitar um orçamento agora</x-link-main>
+            <x-link-main class="w-fit" :href="$getLink()" target="_blank">Solicitar um orçamento agora</x-link-main>
         </div>
     </div>
 </section>

@@ -26,6 +26,11 @@ class ConfigService
         return data_get($this->config, $key, $default);
     }
 
+    public function getAddressFake(): string
+    {
+        return '220 Donnelly Groves Theresaburgh, AK 62589';
+    }
+
     public function all(): array
     {
         return $this->config;

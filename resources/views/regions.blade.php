@@ -253,6 +253,6 @@
 
     <div class="animate flex flex-col gap-5">
         <x-text-large>Se sua cidade não estiver listada, entre em contato para verificar a possibilidade de atendimento. A Rápido Frete está sempre expandindo suas operações para melhor atender seus clientes.</x-text-large>
-        <x-link-main>Solicitar orçamento</x-link-main>
+        <x-link-main :href="$link" target="_blank">Solicitar orçamento</x-link-main>
     </div>
 @endsection

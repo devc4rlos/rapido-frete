@@ -7,9 +7,7 @@
         <x-box.image :image="asset('assets/about.png')" classImage="object-top" class="md:ml-auto" />
     </x-slot:box>
     <x-slot:content>
-        <x-text>
-            Mudar de casa ou transportar algo importante pode ser estressante, mas com a Rápido Frete, você tem a certeza de um serviço seguro, rápido e sem complicações. Nossa missão é garantir que cada mudança seja realizada com o máximo de cuidado, pontualidade e eficiência, sempre colocando o cliente em primeiro lugar.
-        </x-text>
+        <x-text>Mudar de casa ou transportar algo importante pode ser estressante, mas com a Rápido Frete, você tem a certeza de um serviço seguro, rápido e sem complicações. Nossa missão é garantir que cada mudança seja realizada com o máximo de cuidado, pontualidade e eficiência, sempre colocando o cliente em primeiro lugar.</x-text>
 
         <div class="flex flex-col gap-5">
             <x-about.feature title="Profissionais especializados" text="Equipe treinada para garantir um transporte seguro e eficiente.">
@@ -30,9 +28,7 @@
         </div>
     </x-slot:content>
     <x-slot:footer>
-        <a href="#" class="font-text text-sm md:text-base text-brand-400 hover:text-brand-500">Conheça mais sobre a rápido frete</a>
-        <x-link-main>
-            Solicitar um orçamento
-        </x-link-main>
+        <a href="{{ route('about') }}" class="font-text text-sm md:text-base text-brand-400 hover:text-brand-500">Conheça mais sobre a rápido frete</a>
+        <x-link-main :href="$getLink()" target="_blank">Solicitar um orçamento</x-link-main>
     </x-slot:footer>
 </x-template.box-and-text>

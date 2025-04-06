@@ -1,4 +1,4 @@
-@props(['href' => '#', 'class' => '', 'target' => '_blank'])
+@props(['href' => '#', 'class' => '', 'target' => '_self'])
 
 <a
     @class([

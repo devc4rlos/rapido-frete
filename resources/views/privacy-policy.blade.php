@@ -59,7 +59,7 @@
             <li><x-text-large>Solicitar a exclusão dos seus dados, salvo quando houver necessidade legal de retenção.</x-text-large></li>
             <li><x-text-large>Revogar o consentimento para uso de informações a qualquer momento.</x-text-large></li>
         </x-privacy-policy.list-items>
-        <x-text-large>Para exercer esses direitos, entre em contato pelo e-mail <strong>seuemail@rapidofrete.com.br</strong>.</x-text-large>
+        <x-text-large>Para exercer esses direitos, entre em contato pelo e-mail <strong>{{ $email }}r</strong>.</x-text-large>
     </x-privacy-policy.card>
 
     <x-privacy-policy.card>
@@ -76,9 +76,9 @@
         <x-privacy-policy.title>9. Contato</x-privacy-policy.title>
         <x-text-large>Se tiver dúvidas ou quiser exercer seus direitos sobre seus dados, entre em contato conosco:</x-text-large>
         <x-privacy-policy.list-items>
-            <li><x-text-large><strong>E-mail:</strong> seuemail@rapidofrete.com.br</x-text-large></li>
-            <li><x-text-large><strong>Endereço:</strong> Rua Exemplo, 123 - São Paulo, SP</x-text-large></li>
-            <li><x-text-large><strong>Telefone:</strong> (XX) XXXX-XXXX</x-text-large></li>
+            <li><x-text-large><strong>E-mail:</strong> {{ $email }}r</x-text-large></li>
+            <li><x-text-large><strong>Endereço:</strong> {{ $address }}</x-text-large></li>
+            <li><x-text-large><strong>Telefone:</strong> {{ $phone }}</x-text-large></li>
         </x-privacy-policy.list-items>
     </x-privacy-policy.card>
 

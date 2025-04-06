@@ -5,6 +5,7 @@
     'reverse' => false,
     'href' => '',
     'class' => '',
+    'target' => '_self',
 ])
 
 <div @class([
@@ -20,6 +21,6 @@
     <div class="max-w-lg flex flex-col gap-5 justify-center">
         <h3 class="font-semibold font-title text-2xl md:text-3xl leading-[150%]">{{ $title }}</h3>
         <p class="font-title md:text-xl leading-[150%]">{{ $description }}</p>
-        <x-link-main :href="$href" class="w-full md:w-fit">Ver detalhes</x-link-main>
+        <x-link-main :href="$href" class="w-full md:w-fit" :target="$target">Ver detalhes</x-link-main>
     </div>
 </div>

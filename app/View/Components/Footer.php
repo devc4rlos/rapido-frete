@@ -18,7 +18,7 @@ class Footer extends Component
 
     public function getAddress(): string
     {
-        return '220 Donnelly Groves Theresaburgh, AK 62589';
+        return $this->config->getAddressFake();
     }
 
     public function getTextEmail(): string

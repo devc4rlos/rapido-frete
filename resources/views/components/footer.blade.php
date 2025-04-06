@@ -7,23 +7,23 @@
             <x-text>{{ $getTextPhone }}</x-text>
         </div>
         <x-footer.card-list title="Serviços">
-            <x-footer.item-list text="Mudanças residenciais" />
-            <x-footer.item-list text="Mudanças comerciais" />
-            <x-footer.item-list text="Fretes Rápidos" />
-            <x-footer.item-list text="Montagem e desmontagem de móveis" />
-            <x-footer.item-list text="Embalagens profissionais" />
-            <x-footer.item-list text="Mudanças interestaduais" />
+            <x-footer.item-list text="Mudanças residenciais" :href="route('services.residential-moving')" />
+            <x-footer.item-list text="Mudanças comerciais" :href="route('services.commercial-moving')" />
+            <x-footer.item-list text="Fretes Rápidos" :href="route('services.fast-freight')" />
+            <x-footer.item-list text="Montagem e desmontagem de móveis" :href="route('services.furniture-assembly')" />
+            <x-footer.item-list text="Embalagens profissionais" :href="route('services.professional-packaging')" />
+            <x-footer.item-list text="Mudanças interestaduais" :href="route('services.interstate-moving')" />
         </x-footer.card-list>
         <x-footer.card-list title="Páginas importantes">
-            <x-footer.item-list text="Sobre nós" />
-            <x-footer.item-list text="FAQ" />
-            <x-footer.item-list text="Contato" />
-            <x-footer.item-list text="Política de Privacidade" />
-            <x-footer.item-list text="Ver cidades atendidas" />
+            <x-footer.item-list text="Sobre nós" :href="route('about')" />
+            <x-footer.item-list text="FAQ" :href="route('faq')" />
+            <x-footer.item-list text="Contato" :href="route('contact')" />
+            <x-footer.item-list text="Política de Privacidade" :href="route('privacy-policy')" />
+            <x-footer.item-list text="Ver cidades atendidas" :href="route('regions')" />
         </x-footer.card-list>
         <x-footer.card-list title="Redes sociais">
             @foreach($getSocialMedia() as $itemSocialMedia)
-                <x-footer.item-list :text="$itemSocialMedia['text'] ?? false" />
+                <x-footer.item-list :text="$itemSocialMedia['text']" :href="$itemSocialMedia['links']['url']" target="_blank" />
             @endforeach
         </x-footer.card-list>
     </div>

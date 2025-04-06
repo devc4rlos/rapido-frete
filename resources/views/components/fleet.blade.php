@@ -32,6 +32,6 @@
         </x-text>
     </x-slot:content>
     <x-slot:footer>
-        <x-link-main>Ver galeria</x-link-main>
+        <x-link-main :href="route('fleet')">Ver galeria</x-link-main>
     </x-slot:footer>
 </x-template.box-and-text>

@@ -25,7 +25,8 @@
         :class="
             $isVertical ? 'w-full' : ''
         "
-        href="https://api.whatsapp.com/send?phone=5511994411592"
+        :href="$getLink()"
+        target="_blank"
     >
         Solicitar orçamento
     </x-link-main>
