@@ -1,7 +1,5 @@
-@php($href = 'https://api.whatsapp.com/send?phone=5511994411592')
-
 <div class="fixed bottom-0 right-0 p-5 flex items-center">
-    <a href="{{ $href }}" target="_blank" class="flex items-center popup-whatsapp" id="textPopupWhatsapp">
+    <a href="{{ $getLink() }}" target="_blank" class="flex items-center popup-whatsapp" id="textPopupWhatsapp">
         <div class="flex items-center bg-white px-3 h-12 shadow-depth rounded-sm">
             <div class="flex gap-3" id="containerLoading">
                 <div class="w-2 h-2 rounded-full bg-amber-600 circle-loading"></div>
@@ -17,7 +15,7 @@
         </div>
         <div class="w-0 h-0 border-transparent border-l-white border-y-12 -left-0.5 relative border-l-12 pr-2"></div>
     </a>
-    <a href="{{ $href }}" target="_blank" id="iconPopupWhatsapp" class="popup-whatsapp">
+    <a href="{{ $getLink() }}" target="_blank" id="iconPopupWhatsapp" class="popup-whatsapp">
         <x-icons.svg.whatsapp />
     </a>
 </div>
