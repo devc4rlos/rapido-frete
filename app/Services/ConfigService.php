@@ -2,6 +2,8 @@
 
 namespace App\Services;
 
+use App\Utils\TelefoneFormatter;
+
 class ConfigService
 {
     protected array $config = [];
@@ -26,13 +28,38 @@ class ConfigService
         return data_get($this->config, $key, $default);
     }
 
+    public function all(): array
+    {
+        return $this->config;
+    }
+
     public function getAddressFake(): string
     {
         return '220 Donnelly Groves Theresaburgh, AK 62589';
     }
 
-    public function all(): array
+    public function getUrlWhatsapp(): string
     {
-        return $this->config;
+        return $this->get('social_media.whatsapp.links.url');
+    }
+
+    public function getTextWhatsapp(): string
+    {
+        return TelefoneFormatter::formatter($this->get('social_media.whatsapp.phone_number'));
+    }
+
+    public function getUrlEmail(): string
+    {
+        return $this->get('email.url');
+    }
+
+    public function getTextEmail(): string
+    {
+        return $this->get('email.self');
+    }
+
+    public function getSocialMedia(): array
+    {
+        return $this->get('social_media');
     }
 }

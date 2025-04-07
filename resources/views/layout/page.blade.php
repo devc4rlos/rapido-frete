@@ -6,7 +6,7 @@
 @endsection
 
 @section('body')
-    <x-header.top-bar.index />
+    <x-templates.top-bar />
     <x-header.index />
 
     @yield('content')
