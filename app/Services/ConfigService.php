@@ -58,8 +58,10 @@ class ConfigService
         return $this->get('email.self');
     }
 
-    public function getSocialMedia(): array
+    public function getSocialMedia(array $except = []): array
     {
-        return $this->get('social_media');
+        return array_filter($this->get('social_media'), function($nameMediaSocial) use ($except) {
+            return !in_array($nameMediaSocial, $except);
+        }, ARRAY_FILTER_USE_KEY);
     }
 }

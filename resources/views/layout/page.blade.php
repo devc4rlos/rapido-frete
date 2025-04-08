@@ -12,7 +12,7 @@
     @yield('content')
 
     <x-organisms.popup-whatsapp />
-    <x-footer />
+    <x-templates.footer />
 
     @yield('scripts')
     @stack('scripts')
