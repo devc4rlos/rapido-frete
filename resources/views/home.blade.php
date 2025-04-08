@@ -8,7 +8,7 @@
     <x-templates.home.about />
     <x-templates.home.services />
     <x-templates.home.timeline />
-    <x-fleet />
+    <x-templates.home.fleet />
     <x-cities />
     <x-gallery />
     <x-comments />
