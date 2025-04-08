@@ -14,10 +14,10 @@
             <x-icons.mail />
         </x-slot:icon>
     </x-molecules.link-icon>
-    <x-molecules.text-icon>
+    <x-molecules.text-small-with-icon>
         Segunda a Sexta, 08:00 às 18:00
         <x-slot:icon>
             <x-icons.calendar-days />
         </x-slot:icon>
-    </x-molecules.text-icon>
+    </x-molecules.text-small-with-icon>
 </div>

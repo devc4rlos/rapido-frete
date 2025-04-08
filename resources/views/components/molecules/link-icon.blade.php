@@ -6,10 +6,10 @@
     href="{{ $href }}"
     target="{{ $target }}"
     {{ $attributes }}>
-    <x-molecules.text-icon>
+    <x-molecules.text-small-with-icon>
         {{ $slot }}
         <x-slot:icon>
             {{ $icon }}
         </x-slot:icon>
-    </x-molecules.text-icon>
+    </x-molecules.text-small-with-icon>
 </a>
