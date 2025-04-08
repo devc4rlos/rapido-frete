@@ -9,7 +9,7 @@
     <x-templates.home.services />
     <x-templates.home.timeline />
     <x-templates.home.fleet />
-    <x-cities />
+    <x-templates.home.cities />
     <x-gallery />
     <x-comments />
     <x-faq />

@@ -11,7 +11,7 @@
             {{ $box }}
         </div>
         <div @class([
-                'flex flex-col gap-5 md:max-w-lg w-full animate gap-8 md:gap-5 md:pb-10 lg:pb-20',
+                'flex flex-col gap-5 md:max-w-lg w-full animate gap-5 md:pb-10 lg:pb-20',
                 'md:order-1 from-left ml-auto' => $reverse,
                 'from-right' => !$reverse
             ])>
