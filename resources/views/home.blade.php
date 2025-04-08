@@ -7,7 +7,7 @@
     <x-templates.home.line-information />
     <x-templates.home.about />
     <x-templates.home.services />
-    <x-list-step.index />
+    <x-templates.home.timeline />
     <x-fleet />
     <x-cities />
     <x-gallery />
