@@ -3,7 +3,7 @@
 @section('title', 'Home')
 
 @section('content')
-    <x-home.index />
+    <x-templates.home.hero />
     <x-line-information.index />
     <x-about />
     <x-services.index />
