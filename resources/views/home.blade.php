@@ -5,7 +5,7 @@
 @section('content')
     <x-templates.home.hero />
     <x-templates.home.line-information />
-    <x-about />
+    <x-templates.home.about />
     <x-services.index />
     <x-list-step.index />
     <x-fleet />
