@@ -1,32 +1,26 @@
 <?php
 
-namespace App\View\Components\Molecules;
+namespace App\View\Components\Organisms;
 
 use App\Services\ConfigService;
 use App\View\BaseComponent;
 use App\View\Trait\LinkRequestQuoteTrait;
 use Illuminate\Contracts\View\View;
 
-class Menu extends BaseComponent
+class PopupWhatsapp extends BaseComponent
 {
     use LinkRequestQuoteTrait;
 
-    public bool $vertical;
     private ConfigService $service;
 
-    public function __construct(
-        ConfigService $service,
-        string $class = '',
-        bool $vertical = false,
-    )
+    public function __construct(ConfigService $service, string $class = '')
     {
         parent::__construct($class);
-        $this->vertical = $vertical;
         $this->service = $service;
     }
 
     public function render(): View
     {
-        return view('components.molecules.menu');
+        return view('components.organisms.popup-whatsapp');
     }
 }

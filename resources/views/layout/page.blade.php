@@ -11,7 +11,7 @@
 
     @yield('content')
 
-    <x-popup-whatsapp />
+    <x-organisms.popup-whatsapp />
     <x-footer />
 
     @yield('scripts')
