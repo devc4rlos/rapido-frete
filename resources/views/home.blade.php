@@ -10,7 +10,7 @@
     <x-templates.home.timeline />
     <x-templates.home.fleet />
     <x-templates.home.cities />
-    <x-gallery />
+    <x-templates.home.services-gallery />
     <x-comments />
     <x-faq />
     <x-contact />
