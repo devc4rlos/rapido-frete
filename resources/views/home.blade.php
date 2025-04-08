@@ -6,7 +6,7 @@
     <x-templates.home.hero />
     <x-templates.home.line-information />
     <x-templates.home.about />
-    <x-services.index />
+    <x-templates.home.services />
     <x-list-step.index />
     <x-fleet />
     <x-cities />
