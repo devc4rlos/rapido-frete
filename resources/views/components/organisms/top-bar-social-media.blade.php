@@ -4,9 +4,9 @@
         $class,
     ])
     {{ $attributes }}>
-    @foreach($getSocialMedia() as $nameSocialMedia => $itemSocialMedia)
-        <x-molecules.link-icon>
-            <x-slot:icon href="{{ $itemSocialMedia['links']['url'] }}">
+    @foreach($getSocialMedia as $nameSocialMedia => $itemSocialMedia)
+        <x-molecules.link-icon href="{{ $itemSocialMedia['links']['url'] }}" target="_blank">
+            <x-slot:icon>
                 <x-dynamic-component component="icons.{{ $nameSocialMedia }}" />
             </x-slot:icon>
         </x-molecules.link-icon>
