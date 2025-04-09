@@ -11,7 +11,7 @@
     <x-templates.home.fleet />
     <x-templates.home.cities />
     <x-templates.home.services-gallery />
-    <x-comments />
+    <x-templates.home.comments />
     <x-faq />
     <x-contact />
 @endsection
