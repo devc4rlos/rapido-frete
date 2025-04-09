@@ -1,9 +1,9 @@
 @extends('layout.page')
 
 @section('content')
-    <x-container-with-title title="{{ $titleSection }}">
-        <x-single class="animate">
+    <x-organisms.container-with-title title="{{ $titleSection }}">
+        <x-organisms.single class="animate">
             @yield('single')
-        </x-single>
-    </x-container-with-title>
+        </x-organisms.single>
+    </x-organisms.container-with-title>
 @endsection
