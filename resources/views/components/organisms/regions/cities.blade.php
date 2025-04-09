@@ -1,12 +1,14 @@
 <div
     @class([
-        'animate flex flex-col gap-5',
+        'flex flex-col gap-5',
         $class,
     ])
 {{ $attributes }}>
-    <x-atoms.text>A Rápido Frete realiza mudanças e transportes para diversas cidades e estados do Brasil. Confira as regiões que atendemos e solicite um orçamento para sua mudança.</x-atoms.text>
-    <h2 class="font-text font-bold text-lg leading-8">Lista de Regiões Atendidas</h2>
-    <div class="grid grid-cols-5 gap-10">
+    <div class="animate flex flex-col gap-5">
+        <x-atoms.text>A Rápido Frete realiza mudanças e transportes para diversas cidades e estados do Brasil. Confira as regiões que atendemos e solicite um orçamento para sua mudança.</x-atoms.text>
+        <h2 class="font-text font-bold text-lg leading-8">Lista de Regiões Atendidas</h2>
+    </div>
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-10">
         <x-organisms.regions.cities-list
             state="São Paulo"
             :cities="[
