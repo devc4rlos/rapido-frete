@@ -13,6 +13,7 @@
 
     <x-organisms.popup-whatsapp />
     <x-templates.footer />
+    <x-organisms.message-warning />
 
     @yield('scripts')
     @stack('scripts')
