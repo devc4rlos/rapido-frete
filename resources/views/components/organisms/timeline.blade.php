@@ -61,5 +61,5 @@
             <x-icons.clipboard-check size="lg" />
         </x-slot:icon>
     </x-molecules.home.timeline-step>
-    <x-list-step.bar />
+    <x-atoms.home.list-step-bar />
 </div>

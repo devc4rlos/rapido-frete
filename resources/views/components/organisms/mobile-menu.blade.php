@@ -3,5 +3,5 @@
     $class,
 ]) {{ $attributes }}>
     <x-atoms.button-close-overlay />
-    <x-header.menu is-vertical />
+    <x-molecules.menu vertical />
 </div>
