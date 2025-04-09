@@ -13,5 +13,5 @@
     <x-templates.home.services-gallery />
     <x-templates.home.comments />
     <x-templates.home.faq />
-    <x-contact />
+    <x-templates.home.contact />
 @endsection
