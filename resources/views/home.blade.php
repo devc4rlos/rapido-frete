@@ -1,6 +1,8 @@
 @extends('layout.page')
 
-@section('title', 'Home')
+@section('title', 'Rápido Frete | Fretes e Mudanças com Agilidade e Segurança')
+
+@section('description', 'Contrate fretes e mudanças com rapidez, segurança e preço justo. A Rápido Frete conecta você ao transporte ideal de forma simples e prática.')
 
 @section('content')
     <x-templates.home.hero />

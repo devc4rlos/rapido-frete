@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
@@ -7,7 +7,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="robots" content="noindex">
 
-    <title>@yield('title')</title>
+    <title>@yield('title', 'Rápido Frete')</title>
+    <meta name="description" content="@yield('description', 'Rápido Frete')" />
 
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     @yield('head')

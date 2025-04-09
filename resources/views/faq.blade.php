@@ -1,6 +1,7 @@
 @extends('layout.single', ['titleSection' => 'Perguntas frequentes'])
 
-@section('title', 'Perguntas frequentes')
+@section('title', 'Rápido Frete | Perguntas Frequentes – Tire Suas Dúvidas')
+@section('description', 'Confira as dúvidas mais comuns sobre os serviços da Rápido Frete: mudanças, agendamento, formas de pagamento, seguro, rastreamento e muito mais.')
 
 @section('single')
     <x-molecules.question-response

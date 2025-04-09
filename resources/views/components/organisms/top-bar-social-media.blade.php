@@ -1,6 +1,6 @@
 <div
     @class([
-        'hidden lg:flex gap-3',
+        'hidden lg:flex gap-5',
         $class,
     ])
     {{ $attributes }}>

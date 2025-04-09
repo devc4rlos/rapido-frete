@@ -3,5 +3,7 @@
     $class,
 ]) {{ $attributes }}>
     {{ $icon }}
-    <x-atoms.text-small>{{ $slot }}</x-atoms.text-small>
+    @if (!empty(trim($slot)))
+        <x-atoms.text-small>{{ $slot }}</x-atoms.text-small>
+    @endif
 </div>

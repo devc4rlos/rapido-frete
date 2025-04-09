@@ -1,6 +1,6 @@
 <div
     @class([
-        'flex flex-col gap-2',
+        'flex flex-col gap-2 animate',
         $class,
     ])
 {{ $attributes }}>
