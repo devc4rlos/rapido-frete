@@ -3,9 +3,5 @@
 @section('title', 'Contato')
 
 @section('single')
-    <x-contact.index />
+    <x-organisms.contact />
 @endsection
-
-@pushonce('scripts')
-    @vite('resources/js/components/contact.js')
-@endpushonce
