@@ -23,6 +23,7 @@ export default defineConfig({
                 'resources/js/components/question-response.js',
                 'resources/js/components/contact.js',
                 'resources/js/components/popup-whatsapp.js',
+                'resources/js/components/message-warning.js'
             ],
             refresh: true,
         }),

@@ -2,7 +2,7 @@
     'flex flex-wrap justify-center gap-5',
     $class,
 ]) {{ $attributes }}>
-    <x-molecules.link-icon href="{{ $getUrlWhatsapp }}">
+    <x-molecules.link-icon href="{{ $getUrlWhatsapp }}" target="_blank">
         {{ $getTextWhatsapp }}
         <x-slot:icon>
             <x-icons.whatsapp />
