@@ -59,7 +59,8 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
             cd /var/www/rapido-frete.carlosalexandre.com.br
-            git pull origin master
+            git fetch origin
+            git reset --hard origin/master
             composer install --no-dev --optimize-autoloader
             php artisan migrate --force
             npm ci
