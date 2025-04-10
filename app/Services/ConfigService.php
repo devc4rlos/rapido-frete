@@ -58,6 +58,11 @@ class ConfigService
         return $this->get('email.self');
     }
 
+    public function getUrlPortfolio(): string
+    {
+        return $this->get('websites.portfolio');
+    }
+
     public function getSocialMedia(array $except = []): array
     {
         return array_filter($this->get('social_media'), function($nameMediaSocial) use ($except) {
