@@ -15,7 +15,9 @@
     </div>
     <div class="overflow-hidden w-full -translate-x-full hidden shadow-depth" id="messageWarningContent">
         <x-atoms.text class="overflow-hidden shadow-lg bg-light w-full sm:max-w-md lg:max-w-2xl p-5">
-            Este é um site fictício, desenvolvido exclusivamente para fins de demostração no portfólio de <a href="{{ $getUrlPortfolioAuthor }}" target="_blank" class="text-blue-700">Carlos Alexandre</a>. Os serviços exibidos são apenas demonstrativos e não estão disponíveis para contratação.
+            Este é um site fictício, desenvolvido exclusivamente para fins de demostração no portfólio de <a
+                href="{{ $getUrlPortfolioAuthor }}" target="_blank" class="text-blue-700">{{ $getTextName }}</a>. Os
+            serviços exibidos são apenas demonstrativos e não estão disponíveis para contratação.
         </x-atoms.text>
     </div>
 </section>

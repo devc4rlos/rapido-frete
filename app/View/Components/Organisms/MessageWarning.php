@@ -24,6 +24,11 @@ class MessageWarning extends BaseComponent
         return $this->service->getUrlPortfolio();
     }
 
+    public function getTextName(): string
+    {
+        return $this->service->getTextName();
+    }
+
     public function render(): View
     {
         return view('components.organisms.message-warning');

@@ -2,6 +2,8 @@
 
 namespace App\Services;
 
+use App\Helpers\ApiDataHelper;
+use App\Helpers\ApiDataHydrate;
 use App\Utils\TelefoneFormatter;
 
 class ConfigService
@@ -15,17 +17,13 @@ class ConfigService
 
     protected function loadConfig(): void
     {
-        $path = app_path('./../data.json');
-
-        if (file_exists($path)) {
-            $json = file_get_contents($path);
-            $this->config = json_decode($json, true) ?? [];
-        }
+        $raw = ApiDataHelper::getData();
+        $this->config = ApiDataHydrate::hydrate($raw);
     }
 
-    public function get(string $key, $default = null)
+    private function get(string $key)
     {
-        return data_get($this->config, $key, $default);
+        return data_get($this->config, $key);
     }
 
     public function all(): array
@@ -68,5 +66,10 @@ class ConfigService
         return array_filter($this->get('social_media'), function($nameMediaSocial) use ($except) {
             return !in_array($nameMediaSocial, $except);
         }, ARRAY_FILTER_USE_KEY);
+    }
+
+    public function getTextName(): string
+    {
+        return $this->get('name');
     }
 }
