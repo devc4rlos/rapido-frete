@@ -4,10 +4,10 @@ namespace App\View\Components\Icons;
 
 use Illuminate\Contracts\View\View;
 
-class X extends IconFontAwesome
+class Twitter extends IconFontAwesome
 {
     public function render(): View
     {
-        return view('components.icons.x');
+        return view('components.icons.twitter');
     }
 }
